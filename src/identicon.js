@@ -14,7 +14,6 @@ class Identicon {
     this.row15 = this.randNum.slice(0, 5)
     this.row24 = this.randNum.slice(5, 10)
     this.row3 = this.randNum.slice(10, 15)
-    console.log(this)
   }
 
 

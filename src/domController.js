@@ -7,22 +7,15 @@ function updateDOM() {
 
   for (let i=0; i<5; i++){
     if (identicon.row15[i]%2 === 0) {
-      row1[i].style.backgroundColor = "000"
-      row5[i].style.backgroundColor = "000"
+      row1[i].style.backgroundColor = "blue"
+      row5[i].style.backgroundColor = "blue"
     }
-  }
-
-  for (let i=0; i<5; i++){
     if (identicon.row24[i]%2 === 0) {
-      row2[i].style.backgroundColor = "000"
-      row4[i].style.backgroundColor = "000"
+      row2[i].style.backgroundColor = "blue"
+      row4[i].style.backgroundColor = "blue"
     }
-  }
-
-  for (let i=0; i<5; i++){
     if (identicon.row3[i]%2 === 0) {
-      row3[i].style.backgroundColor = "000"
+      row3[i].style.backgroundColor = "blue"
     }
   }
-  // row1.forEach(node => node.style.backgroundColor)
 }
